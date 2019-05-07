@@ -7,3 +7,5 @@ RUN apt-get update && apt-get install -y bsdtar curl g++ bzip2 git python build-
 
 RUN curl https://install.meteor.com | /bin/sh
 
+RUN mkdir /build
+VOLUME /build
