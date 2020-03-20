@@ -5,7 +5,7 @@ ENV METEOR_ALLOW_SUPERUSER true
 
 RUN apt-get update && apt-get install -y bsdtar curl g++ bzip2 git python build-essential && ln -sf $(which bsdtar) $(which tar)
 
-RUN curl "https://install.meteor.com?release=1.8.3" | /bin/sh
+RUN curl "https://install.meteor.com?release=1.8.1" | /bin/sh
 
 RUN mkdir /build
 VOLUME /build
