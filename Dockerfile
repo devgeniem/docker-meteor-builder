@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-LABEL maintainer="mika.puhakka@geniem.com"
+LABEL maintainer="jukka.halikka@geniem.com"
 
 ENV METEOR_ALLOW_SUPERUSER true
 
